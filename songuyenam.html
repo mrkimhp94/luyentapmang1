@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body><p id="negative"></p>
+<script>
+    let x = [-2,-45,6,-234,5,-25,35,3,34,-35];
+    let index=0;
+    let result = [];
+    for (let i=0;i<x.length;i++){
+        if (x[i]<0){
+             result.push(x[i]);
+            index++;
+        }
+    }
+    document.getElementById("negative").innerHTML="có "+ index +'số âm là'+result;
+</script>
+</body>
+</html>

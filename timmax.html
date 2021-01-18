@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let x = [2,45,6,234,5,25,35,3,34,35];
+    let max = x[0];
+    let index=0;
+    for (let i=0;i<x.length;i++){
+        if (x[i]>max){
+            max = x[i];
+            index=i;
+        }
+    }
+    alert("max = " + max +" tại vị trí " + index)
+</script>
+</body>
+</html>

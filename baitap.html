@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body><p id="result"></p>
+<script>
+    let a = [1,2,21,34,5,125,23,52,12,122];
+    let index =0;
+    let result =[];
+    for (let i = 0; i <a.length ; i++) {
+        if (a[i]>10){
+            result.push(a[i])
+            index=index+1
+        }
+    }
+    document.getElementById("result").innerHTML= 'Có '+ index + ' số lớn hơn 10 là :' + result;
+</script>
+</body>
+</html>
